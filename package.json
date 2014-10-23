@@ -1,0 +1,35 @@
+{
+  "name": "sequelize-extra",
+  "version": "0.0.1",
+  "description": "Collection of extensions to Sequelize",
+  "main": "./lib/",
+  "author": {
+    "name": "Overlook Motel"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/overlookmotel/sequelize-extra.git"
+  },
+  "bugs": {
+    "url": "https://github.com/overlookmotel/sequelize-extra/issues"
+  },
+  "dependencies": {
+    "sequelize": "2.0.x",
+	"mysql": "~2.4.1"
+  },
+  "devDependencies": {
+    "mocha": "*",
+    "chai": "*",
+    "chai-as-promised": "*",
+    "lodash": "2.4.1"
+  },
+  "keywords": [
+  ],
+  "scripts": {
+    "test": "make test"
+  },
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "readmeFilename": "README.md"
+}
