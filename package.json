@@ -15,7 +15,10 @@
   },
   "dependencies": {
     "sequelize": "2.0.x",
-	"mysql": "~2.4.1"
+    "mysql": "~2.4.1",
+    "sequelize-definer": "0.x",
+    "sequelize-hierarchy": "0.x",
+    "sequelize-virtual": "0.x"
   },
   "devDependencies": {
     "mocha": "*",
