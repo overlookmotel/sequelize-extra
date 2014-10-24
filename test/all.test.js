@@ -69,5 +69,35 @@ describe(Support.getTestDialectTeaser('Tests'), function () {
 				expect(values.User.id).to.equal(this.bob.id);
 			});
 		});
+		
+		it('Sequelize.getValuesDedup(item)', function() {
+			return Promise.bind(this).then(function() {
+				return this.Task.findAll({where: {name: 'Washing'}, include: [this.User]});
+			}).then(function(items) {
+				var values = Sequelize.getValuesDedup(items);
+				
+				expect(values.dataValues).not.to.exist;
+				expect(values[0]).to.be.ok;
+				expect(values[0].dataValues).not.to.exist;
+				expect(values[0].UserId).not.to.exist;
+				expect(values[0].User).to.be.ok;
+				expect(values[0].User.dataValues).not.to.exist;
+				expect(values[0].User.id).to.equal(this.bob.id);
+			});
+		});
+		
+		it('Instance#getValuesDedup()', function() {
+			return Promise.bind(this).then(function() {
+				return this.Task.find({where: {name: 'Washing'}, include: [this.User]});
+			}).then(function(item) {
+				var values = item.getValuesDedup();
+				
+				expect(values.dataValues).not.to.exist;
+				expect(values.UserId).not.to.exist;
+				expect(values.User).to.be.ok;
+				expect(values.User.dataValues).not.to.exist;
+				expect(values.User.id).to.equal(this.bob.id);
+			});
+		});
 	});
 });
