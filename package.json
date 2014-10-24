@@ -18,7 +18,7 @@
     "mysql": "~2.4.1",
     "sequelize-definer": "0.x",
     "sequelize-hierarchy": "0.x",
-    "sequelize-virtual": "0.x"
+    "sequelize-virtual-fields": "0.x"
   },
   "devDependencies": {
     "mocha": "*",
