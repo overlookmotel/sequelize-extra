@@ -3,7 +3,7 @@
 var fs = require('fs'),
 	path = require('path'),
 	_ = require('lodash'),
-	Sequelize = require('../lib/index'),
+	Sequelize = require('../lib/'),
 	DataTypes = require(__dirname + "/../node_modules/sequelize/lib/data-types"),
 	Config = require(__dirname + "/config/config");
 
@@ -48,8 +48,8 @@ var Support = {
 					resolve();
 				}
 			}).then(function () {
-				var options		= Sequelize.Utils._.extend({}, sequelize.options, { storage: p })
-					, _sequelize = new Sequelize(sequelize.config.database, null, null, options);
+				var options = Sequelize.Utils._.extend({}, sequelize.options, { storage: p }),
+					_sequelize = new Sequelize(sequelize.config.database, null, null, options);
 
 				if (callback) {
 					_sequelize.sync({ force: true }).success(function() { callback(_sequelize); });
