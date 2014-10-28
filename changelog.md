@@ -15,3 +15,9 @@
 * Travis integration
 * Code tidy
 * README
+
+## 0.1.1
+
+First version on NPM
+
+* Revert JSHint options to stricter and ignore line where `__proto__` used
