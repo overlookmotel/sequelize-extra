@@ -24,7 +24,10 @@
   "devDependencies": {
     "mocha": "2.0.x",
     "chai": "1.9.x",
-    "chai-as-promised": "4.1.x"
+    "chai-as-promised": "4.1.x",
+    "sqlite3": "~2.2.4",
+    "pg": "~3.4.0",
+    "mariasql": "~0.1.2"
   },
   "keywords": [
   ],
