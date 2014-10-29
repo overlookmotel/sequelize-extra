@@ -28,3 +28,7 @@ First version on NPM
 * Travis loads sequelize dependency from Github repo master branch not npm
 * Tests db user sequelize_test
 * Travis uses db user travis
+
+## 0.1.3
+
+* Travis config changed
