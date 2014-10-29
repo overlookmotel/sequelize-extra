@@ -32,3 +32,7 @@ First version on NPM
 ## 0.1.3
 
 * Travis config changed
+
+## 0.1.4
+
+* Modified many-to-many test after acceptance of PR #2474 on Sequelize
