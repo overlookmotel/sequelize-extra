@@ -13,7 +13,7 @@ Packages together 3 Sequelize plugins ([sequelize-definer](https://www.npmjs.org
 
 API is stable. Tested on MySQL. Untested on the other DB dialects that Sequelize supports.
 
-Requires recent master of Sequelize v2.x dev branch, more recent than 28 Oct 2014. This is more recent than v2.0.0-rc2 which is latest available on NPM. i.e. you need to get latest Sequelize from Github (hence why Travis is failing).
+Requires recent master of Sequelize v2.x dev branch, more recent than 28 Oct 2014. This is more recent than v2.0.0-rc2 which is latest available on NPM. i.e. you need to get latest Sequelize from Github.
 
 ## Usage
 
@@ -71,6 +71,10 @@ Requires a database called 'sequelize_test' and a db user 'sequelize_test' with 
 ## Changelog
 
 See changelog.md
+
+## TODO
+
+* Change many-to-many test once PR #2474 on Sequelize is merged
 
 ## Issues
 
