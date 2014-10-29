@@ -21,3 +21,10 @@
 First version on NPM
 
 * Revert JSHint options to stricter and ignore line where `__proto__` used
+
+## 0.1.2
+
+* Modified many-to-many test pending acceptance of PR #2474 on Sequelize
+* Travis loads sequelize dependency from Github repo master branch not npm
+* Tests db user sequelize_test
+* Travis uses db user travis
