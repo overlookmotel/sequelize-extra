@@ -118,8 +118,8 @@ describe(Support.getTestDialectTeaser('Tests'), function () {
 					expect(values.Workers[0].dataValues).not.to.exist;
 					expect(values.Workers[0].id).to.equal(this.bob.id);
 					
-					expect(values.Workers[0].TaskWorker.UserId).not.to.exist;
-					expect(values.Workers[0].TaskWorker.TaskId).not.to.exist;
+					expect(values.Workers[0].TasksWorker.UserId).not.to.exist;
+					expect(values.Workers[0].TasksWorker.TaskId).not.to.exist;
 				});
 			});
 		});
