@@ -9,7 +9,7 @@ before_script:
   - "psql -c 'create database sequelize_test;' -U postgres"
 
 script:
-  - "SEQ_USER=root make test"
+  - "SEQ_USER=travis make test"
 
 env:
   - DB=mysql DIALECT=mysql
