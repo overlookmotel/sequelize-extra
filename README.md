@@ -8,7 +8,7 @@ Packages together 3 Sequelize plugins ([sequelize-definer](https://www.npmjs.org
 
 ## Current status
 
-[![Build Status](https://secure.travis-ci.org/overlookmotel/sequelize-extra.png)](http://travis-ci.org/overlookmotel/sequelize-extra)
+[![Build Status](https://secure.travis-ci.org/overlookmotel/sequelize-extra.png?branch=master)](http://travis-ci.org/overlookmotel/sequelize-extra)
 [![Dependency Status](https://david-dm.org/overlookmotel/sequelize-extra.png)](https://david-dm.org/overlookmotel/sequelize-extra)
 
 API is stable. All features and options are fairly well tested. Works with all dialects of SQL supported by Sequelize (MySQL, Postgres, SQLite).
