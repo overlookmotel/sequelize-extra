@@ -41,3 +41,7 @@ First version on NPM
 
 * Travis dev branch
 * Travis initialization speeded up
+
+## Next
+
+* Locked dependent plugins to 0.2.x versions
