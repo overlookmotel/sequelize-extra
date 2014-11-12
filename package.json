@@ -15,7 +15,7 @@
   },
   "dependencies": {
     "sequelize": "2.0.x",
-    "mysql": "~2.4.1",
+    "mysql": "~2.5.0",
     "lodash": "2.4.1",
     "sequelize-definer": "0.2.x",
     "sequelize-hierarchy": "0.2.x",
@@ -25,8 +25,8 @@
     "mocha": "2.0.x",
     "chai": "1.9.x",
     "chai-as-promised": "4.1.x",
-    "sqlite3": "~2.2.4",
-    "pg": "~3.4.0",
+    "sqlite3": "~3.0.0",
+    "pg": "~3.6.0",
     "mariasql": "~0.1.2",
     "jshint": "2.5.x"
   },

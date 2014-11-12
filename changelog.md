@@ -45,3 +45,7 @@ First version on NPM
 ## 0.2.0
 
 * Locked dependent plugins to 0.2.x versions
+
+## Next
+
+* Update db library dependencies in line with Sequelize
