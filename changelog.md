@@ -46,7 +46,7 @@ First version on NPM
 
 * Locked dependent plugins to 0.2.x versions
 
-## Next
+## 0.2.1
 
 * Update db library dependencies in line with Sequelize
 * Add `namePlural` to models when defined
