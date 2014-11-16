@@ -63,6 +63,10 @@ Useful if you want to e.g. send the values of an Instance to the browser without
 
 Same as `Sequelize.getValues(input)`, but with data de-duplication.
 
+### Additional Promise methods
+
+`Sequelize.Promise` is augmented with extra methods from [bluebird-extra](https://www.npmjs.org/package/bluebird-extra) so methods like `mapSeries()` can be used on results returned from Sequelize.
+
 ## Tests
 
 Use `npm test` to run the tests.

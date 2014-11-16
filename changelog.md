@@ -52,3 +52,8 @@ First version on NPM
 * Add `namePlural` to models when defined
 * Amend travis config file to use `npm install` to install Sequelize's dependencies after getting latest master from git
 * Added `editorconfig` file
+
+## Next
+
+* Add dependency bluebird-extra
+* Augment Sequelize.Promise with extra methods from bluebird-extra module
