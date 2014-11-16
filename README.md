@@ -21,7 +21,7 @@ Requires recent master of Sequelize v2.x dev branch, more recent than 28 Oct 201
 
 To load module:
 
-	var Sequelize = require('sequelize-extra')();
+	var Sequelize = require('sequelize-extra');
 
 ### Additional methods
 
