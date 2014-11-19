@@ -58,6 +58,6 @@ First version on NPM
 * Add dependency bluebird-extra
 * Augment Sequelize.Promise with extra methods from bluebird-extra module
 
-## Next
+## 0.2.3
 
 * Sequelize dependency listed as git://... explicitly in package.json (to get latest master from github)
