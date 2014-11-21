@@ -1,6 +1,6 @@
 {
   "name": "sequelize-extra",
-  "version": "0.2.3",
+  "version": "0.2.4",
   "description": "Collection of extensions to Sequelize",
   "main": "./lib/",
   "author": {

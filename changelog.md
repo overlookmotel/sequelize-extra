@@ -61,4 +61,7 @@ First version on NPM
 ## 0.2.3
 
 * Sequelize dependency listed as git://... explicitly in package.json (to get latest master from github)
+
+## 0.2.4
+
 * Added reverse include method on Sequelize
