@@ -66,6 +66,8 @@ First version on NPM
 
 * Added reverse include method on Sequelize
 
-## Next
+## 0.2.5
 
 * Bug fix: typo in `reverseIncludes()` function
+
+## Next
