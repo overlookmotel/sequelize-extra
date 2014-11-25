@@ -74,6 +74,6 @@ First version on NPM
 
 Accidental commit. No changes made.
 
-## Next
+## 0.2.7
 
 * Bug fix: typo in `reverseIncludes()` function
