@@ -70,4 +70,4 @@ First version on NPM
 
 * Bug fix: typo in `reverseIncludes()` function
 
-## Next
+## 0.2.6
