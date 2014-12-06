@@ -77,3 +77,7 @@ Accidental commit. No changes made.
 ## 0.2.7
 
 * Bug fix: typo in `reverseIncludes()` function
+
+## Next
+
+* Updated sequelize dependency to v2.0.0-rc3

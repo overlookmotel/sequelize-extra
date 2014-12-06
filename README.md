@@ -13,7 +13,7 @@ Packages together 3 Sequelize plugins ([sequelize-definer](https://www.npmjs.org
 
 API is stable. All features and options are fairly well tested. Works with all dialects of SQL supported by Sequelize (MySQL, Postgres, SQLite).
 
-Requires recent master of Sequelize v2.x dev branch, more recent than 28 Oct 2014. This is more recent than v2.0.0-rc2 which is latest available on NPM. i.e. you need to get latest Sequelize from Github.
+Utilizes Sequelize v2.0.0-rc3 internally.
 
 ## Usage
 
