@@ -83,3 +83,7 @@ Accidental commit. No changes made.
 * Updated sequelize dependency to v2.0.0-rc3
 * Locked sequelize plugin dependencies to latest versions
 * JSHint ignores redefinition of `Promise`
+
+## Next
+
+* Update sequelize-virtual-fields dependency to v0.2.8

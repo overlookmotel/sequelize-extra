@@ -19,7 +19,7 @@
     "lodash": "2.4.1",
     "sequelize-definer": "^0.2.7",
     "sequelize-hierarchy": "^0.2.4",
-    "sequelize-virtual-fields": "^0.2.7",
+    "sequelize-virtual-fields": "^0.2.8",
     "bluebird-extra": "0.1.x"
   },
   "devDependencies": {
