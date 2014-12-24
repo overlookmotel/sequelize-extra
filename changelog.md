@@ -97,6 +97,6 @@ Accidental commit. No changes made.
 
 * Update and lock plugin dependencies
 
-## Next
+## 0.2.12
 
 * Update sequelize-hierarchy dependency to v0.2.7
