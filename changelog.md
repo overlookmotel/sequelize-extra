@@ -88,7 +88,7 @@ Accidental commit. No changes made.
 
 * Update sequelize-virtual-fields dependency to v0.2.8
 
-## Next
+## 0.2.10
 
 * Lock sequelize dependency to 2.0.0-rc3 (errors with rc4)
 * Update plugin dependencies
