@@ -93,6 +93,6 @@ Accidental commit. No changes made.
 * Lock sequelize dependency to 2.0.0-rc3 (errors with rc4)
 * Update plugin dependencies
 
-## Next
+## 0.2.11
 
 * Update and lock plugin dependencies
