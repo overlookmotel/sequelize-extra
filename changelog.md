@@ -100,3 +100,7 @@ Accidental commit. No changes made.
 ## 0.2.12
 
 * Update sequelize-hierarchy dependency to v0.2.7
+
+## Next
+
+* Sequelize.getValues() handles objects

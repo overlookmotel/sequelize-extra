@@ -45,19 +45,37 @@ describe(Support.getTestDialectTeaser('Tests'), function () {
 				return this.washing.addWorker(this.bob);
 			});
 		});
-		
-		it('Sequelize.getValues(item)', function() {
-			return Promise.bind(this).then(function() {
-				return this.Task.findAll({where: {name: 'Washing'}, include: [{model: this.User, as: 'Owner'}]});
-			}).then(function(items) {
-				var values = Sequelize.getValues(items);
-				
-				expect(values.dataValues).not.to.exist;
-				expect(values[0]).to.be.ok;
-				expect(values[0].dataValues).not.to.exist;
-				expect(values[0].Owner).to.be.ok;
-				expect(values[0].Owner.dataValues).not.to.exist;
-				expect(values[0].Owner.id).to.equal(this.bob.id);
+
+		describe('Sequelize.getValues(item)', function() {
+			it('handles array', function() {
+				return Promise.bind(this).then(function() {
+					return this.Task.findAll({where: {name: 'Washing'}, include: [{model: this.User, as: 'Owner'}]});
+				}).then(function(items) {
+					var values = Sequelize.getValues(items);
+
+					expect(values.dataValues).not.to.exist;
+					expect(values[0]).to.be.ok;
+					expect(values[0].dataValues).not.to.exist;
+					expect(values[0].Owner).to.be.ok;
+					expect(values[0].Owner.dataValues).not.to.exist;
+					expect(values[0].Owner.id).to.equal(this.bob.id);
+				});
+			});
+
+			it('handles object', function() {
+				return Promise.bind(this).then(function() {
+					return this.Task.findAll({where: {name: 'Washing'}, include: [{model: this.User, as: 'Owner'}]});
+				}).then(function(items) {
+					var values = Sequelize.getValues({items: items});
+
+					expect(values).to.be.ok;
+					expect(values.items.dataValues).not.to.exist;
+					expect(values.items[0]).to.be.ok;
+					expect(values.items[0].dataValues).not.to.exist;
+					expect(values.items[0].Owner).to.be.ok;
+					expect(values.items[0].Owner.dataValues).not.to.exist;
+					expect(values.items[0].Owner.id).to.equal(this.bob.id);
+				});
 			});
 		});
 		
