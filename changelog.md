@@ -105,3 +105,4 @@ Accidental commit. No changes made.
 
 * Sequelize.getValues() handles objects
 * Remove all trailing whitespace
+* Travis runs on new container infrastructure
