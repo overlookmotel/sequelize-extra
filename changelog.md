@@ -104,3 +104,4 @@ Accidental commit. No changes made.
 ## Next
 
 * Sequelize.getValues() handles objects
+* Remove all trailing whitespace
