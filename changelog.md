@@ -101,7 +101,7 @@ Accidental commit. No changes made.
 
 * Update sequelize-hierarchy dependency to v0.2.7
 
-## Next
+## 0.2.13
 
 * Sequelize.getValues() handles objects
 * Remove all trailing whitespace
