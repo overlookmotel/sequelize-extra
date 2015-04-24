@@ -1,11 +1,16 @@
-"use strict";
+'use strict';
 
 var fs = require('fs'),
 	path = require('path'),
 	_ = require('lodash'),
-	Sequelize = require('../lib/'),
-	DataTypes = require(__dirname + "/../node_modules/sequelize/lib/data-types"),
-	Config = require(__dirname + "/config/config");
+	Sequelize = require('sequelize'),
+	DataTypes = require(__dirname + '/../node_modules/sequelize/lib/data-types'),
+	Config = require(__dirname + '/config/config'),
+	chai = require('chai'),
+	expect = chai.expect,
+	chaiAsPromised = require('chai-as-promised');
+
+chai.use(chaiAsPromised);
 
 // Make sure errors get thrown when testing
 Sequelize.Promise.onPossiblyUnhandledRejection(function(e, promise) {
@@ -40,14 +45,14 @@ var Support = {
 		if (dialect === 'sqlite') {
 			var p = path.join(__dirname, 'tmp', 'db.sqlite');
 
-			return new Sequelize.Promise(function (resolve, reject) {
+			return new Sequelize.Promise(function(resolve, reject) {
 				// We cannot promisify exists, since exists does not follow node callback convention - first argument is a boolean, not an error / null
 				if (fs.existsSync(p)) {
 					resolve(Sequelize.Promise.promisify(fs.unlink)(p));
 				} else {
 					resolve();
 				}
-			}).then(function () {
+			}).then(function() {
 				var options = Sequelize.Utils._.extend({}, sequelize.options, { storage: p }),
 					_sequelize = new Sequelize(sequelize.config.database, null, null, options);
 
@@ -74,7 +79,7 @@ var Support = {
 
 		var sequelizeOptions = _.defaults(options, {
 			host: options.host || config.host,
-			logging: false,
+			logging: (process.env.SEQ_LOG ? console.log : false),
 			dialect: options.dialect,
 			port: options.port || process.env.SEQ_PORT || config.port,
 			pool: config.pool,
@@ -103,16 +108,12 @@ var Support = {
 			.getQueryInterface()
 			.dropAllTables()
 			.then(function() {
-				sequelize.daoFactoryManager.daos = [];
+				sequelize.modelManager.daos = [];
+				sequelize.models = {};
+
 				return sequelize
 					.getQueryInterface()
-					.dropAllEnums()
-					.catch(function (err) {
-						console.log('Error in support.clearDatabase() dropAllEnums() :: ', err);
-					});
-			})
-			.catch(function(err) {
-				console.log('Error in support.clearDatabase() dropAllTables() :: ', err);
+					.dropAllEnums();
 			});
 	},
 
@@ -164,7 +165,7 @@ var Support = {
 			dialect = 'postgres-native';
 		}
 
-		return "[" + dialect.toUpperCase() + "] " + moduleName;
+		return '[' + dialect.toUpperCase() + '] ' + moduleName;
 	},
 
 	getTestUrl: function(config) {
@@ -176,31 +177,34 @@ var Support = {
 		} else {
 			var credentials = dbConfig.username;
 			if (dbConfig.password) {
-				credentials += ":" + dbConfig.password;
+				credentials += ':' + dbConfig.password;
 			}
 
-			url = config.dialect + "://" + credentials + "@" + dbConfig.host + ":" + dbConfig.port + "/" + dbConfig.database;
+			url = config.dialect + '://' + credentials + '@' + dbConfig.host + ':' + dbConfig.port + '/' + dbConfig.database;
 		}
 		return url;
+	},
+
+	expectsql: function(query, expectations) {
+		var expectation = expectations[Support.sequelize.dialect.name];
+
+		if (!expectation && Support.sequelize.dialect.name === 'mariadb') {
+			expectation = expectations['mysql'];
+		}
+
+		if (!expectation) {
+			expectation = expectations['default']
+				.replace(/\[/g, Support.sequelize.dialect.TICK_CHAR_LEFT)
+				.replace(/\]/g, Support.sequelize.dialect.TICK_CHAR_RIGHT);
+		}
+
+		expect(query).to.equal(expectation);
 	}
 };
 
-var sequelize = Support.createSequelizeInstance();
-//
-// For Postgres' HSTORE functionality and to properly execute it's commands we'll need this...
-before(function() {
-	var dialect = Support.getTestDialect();
-	if (dialect !== "postgres" && dialect !== "postgres-native") {
-		return;
-	}
-
-	return sequelize.query('CREATE EXTENSION IF NOT EXISTS hstore', null, {raw: true});
-});
-
 beforeEach(function() {
-	this.sequelize = sequelize;
-
-	return Support.clearDatabase(this.sequelize);
+	this.sequelize = Support.sequelize;
 });
 
+Support.sequelize = Support.createSequelizeInstance();
 module.exports = Support;
