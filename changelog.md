@@ -111,3 +111,4 @@ Accidental commit. No changes made.
 
 * Move `getValues()` functions into sequelize-values module
 * Update sequelize dependency to 2.0.0+
+* Update dev dependencies in line with sequelize v2.0.5
