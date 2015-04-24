@@ -11,9 +11,9 @@ Packages together 4 Sequelize plugins ([sequelize-definer](https://www.npmjs.org
 [![Build Status](https://secure.travis-ci.org/overlookmotel/sequelize-extra.png?branch=master)](http://travis-ci.org/overlookmotel/sequelize-extra)
 [![Dependency Status](https://david-dm.org/overlookmotel/sequelize-extra.png)](https://david-dm.org/overlookmotel/sequelize-extra)
 
-API is stable. All features and options are fairly well tested. Works with all dialects of SQL supported by Sequelize (MySQL, Postgres, SQLite).
+API is stable. All features and options are fairly well tested. Works with all dialects of SQL supported by Sequelize (MySQL, Postgres, SQLite) except Microsoft SQL Server.
 
-Utilizes Sequelize v2.0.0-rc3 internally.
+Utilizes Sequelize v2.0.0 internally.
 
 ## Usage
 
