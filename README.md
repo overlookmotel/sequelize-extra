@@ -4,7 +4,7 @@
 
 ## What it does
 
-Packages together 4 Sequelize plugins ([sequelize-definer](https://www.npmjs.org/package/sequelize-definer), [sequelize-hierarchy](https://www.npmjs.org/package/sequelize-hierarchy), [sequelize-virtual-fields](https://www.npmjs.org/package/sequelize-virtual-fields) and [sequelize-values](https://www.npmjs.org/package/sequelize-values)) and adds a few extra methods.
+Packages together 4 Sequelize plugins ([sequelize-definer](https://www.npmjs.org/package/sequelize-definer), [sequelize-hierarchy](https://www.npmjs.org/package/sequelize-hierarchy), [sequelize-virtual-fields](https://www.npmjs.org/package/sequelize-virtual-fields) and [sequelize-values](https://www.npmjs.org/package/sequelize-values)).
 
 ## Current status
 
@@ -16,6 +16,8 @@ API is stable. All features and options are fairly well tested. Works with all d
 Utilizes Sequelize v2.0.0 internally.
 
 ## Usage
+
+Usage of this module is not recommended! Better to use the 4 plugins directly ([sequelize-definer](https://www.npmjs.org/package/sequelize-definer), [sequelize-hierarchy](https://www.npmjs.org/package/sequelize-hierarchy), [sequelize-virtual-fields](https://www.npmjs.org/package/sequelize-virtual-fields) and [sequelize-values](https://www.npmjs.org/package/sequelize-values)).
 
 ### Loading module
 

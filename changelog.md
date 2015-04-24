@@ -119,3 +119,4 @@ Accidental commit. No changes made.
 * Support for Microsoft SQL Server in tests
 * README code examples tagged as Javascript
 * README contributions section
+* README update
