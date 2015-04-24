@@ -114,3 +114,4 @@ Accidental commit. No changes made.
 * Update dev dependencies in line with sequelize v2.0.5
 * Update test support files in line with sequelize v2.0.5
 * Update module dependencies
+* Travis runs tests against node 0.10 and 0.12
