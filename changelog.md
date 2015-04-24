@@ -117,3 +117,4 @@ Accidental commit. No changes made.
 * Travis runs tests against node 0.10 and 0.12
 * Travis uses correct database users
 * Support for Microsoft SQL Server in tests
+* README code examples tagged as Javascript

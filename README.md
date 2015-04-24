@@ -21,8 +21,9 @@ Utilizes Sequelize v2.0.0 internally.
 
 To load module:
 
-	var Sequelize = require('sequelize-extra');
-
+```js
+var Sequelize = require('sequelize-extra');
+```
 
 ### Additional Promise methods
 
