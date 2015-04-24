@@ -113,3 +113,4 @@ Accidental commit. No changes made.
 * Update sequelize dependency to 2.0.0+
 * Update dev dependencies in line with sequelize v2.0.5
 * Update test support files in line with sequelize v2.0.5
+* Update module dependencies
