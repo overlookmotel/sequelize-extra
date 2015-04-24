@@ -118,3 +118,4 @@ Accidental commit. No changes made.
 * Travis uses correct database users
 * Support for Microsoft SQL Server in tests
 * README code examples tagged as Javascript
+* README contributions section

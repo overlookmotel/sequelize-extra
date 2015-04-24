@@ -41,3 +41,15 @@ See changelog.md
 ## Issues
 
 If you discover a bug, please raise an issue on Github. https://github.com/overlookmotel/sequelize-extra/issues
+
+## Contribution
+
+Pull requests are very welcome. Please:
+
+* fork and issue PRs on `dev` branch
+* ensure all tests pass before submitting PR
+* add an entry to changelog
+* add tests for new features
+* document new functionality/API additions in README
+
+`master` branch is always the most recent npm release. All new code is first added to `dev` branch for testing and only merged into `master` when it's ready to be published to npm.
