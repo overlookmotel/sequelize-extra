@@ -106,3 +106,7 @@ Accidental commit. No changes made.
 * Sequelize.getValues() handles objects
 * Remove all trailing whitespace
 * Travis runs on new container infrastructure
+
+## Next
+
+* Move `getValues()` functions into sequelize-values module

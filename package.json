@@ -20,6 +20,7 @@
     "sequelize-definer": "0.2.44",
     "sequelize-hierarchy": "0.2.7",
     "sequelize-virtual-fields": "0.2.10",
+    "sequelize-values": "~0.0.2",
     "bluebird-extra": "0.1.x"
   },
   "devDependencies": {
