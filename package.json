@@ -15,13 +15,13 @@
   },
   "dependencies": {
     "lodash": "2.4.1",
-    "sequelize-definer": "~0.3.0",
-    "sequelize-hierarchy": "~0.2.10",
-    "sequelize-virtual-fields": "~0.2.11",
-    "sequelize-values": "~0.0.2",
     "bluebird-extra": "0.1.x"
     "sequelize": "~2.1.0",
     "mysql": "~2.6.2",
+    "sequelize-definer": "~0.3.2",
+    "sequelize-hierarchy": "~0.2.12",
+    "sequelize-virtual-fields": "~0.2.12",
+    "sequelize-values": "~0.0.3",
   },
   "devDependencies": {
     "mocha": "2.0.x",
