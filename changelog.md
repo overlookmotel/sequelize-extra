@@ -124,3 +124,4 @@ Accidental commit. No changes made.
 ## Next
 
 * Update sequelize dependency version to v2.1.0
+* Update mysql module dependency in line with sequelize v2.1.0
