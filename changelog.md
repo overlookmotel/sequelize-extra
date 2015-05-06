@@ -120,3 +120,7 @@ Accidental commit. No changes made.
 * README code examples tagged as Javascript
 * README contributions section
 * README update
+
+## Next
+
+* Update sequelize dependency version to v2.1.0

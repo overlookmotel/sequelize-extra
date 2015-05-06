@@ -14,7 +14,6 @@
     "url": "https://github.com/overlookmotel/sequelize-extra/issues"
   },
   "dependencies": {
-    "sequelize": "~2.0.0",
     "mysql": "~2.5.0",
     "lodash": "2.4.1",
     "sequelize-definer": "~0.3.0",
@@ -22,6 +21,7 @@
     "sequelize-virtual-fields": "~0.2.11",
     "sequelize-values": "~0.0.2",
     "bluebird-extra": "0.1.x"
+    "sequelize": "~2.1.0",
   },
   "devDependencies": {
     "mocha": "2.0.x",
