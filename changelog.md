@@ -128,3 +128,4 @@ Accidental commit. No changes made.
 * Update sequelize module dependencies
 * Update lodash dependency
 * Update bluebird-extra dependency
+* Update dev dependencies

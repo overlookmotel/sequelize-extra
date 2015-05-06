@@ -24,15 +24,15 @@
     "bluebird-extra": "~0.1.5"
   },
   "devDependencies": {
-    "mocha": "2.0.x",
-    "chai": "1.9.x",
-    "chai-as-promised": "4.1.x",
+    "mocha": "^2.2.4",
+    "chai": "^2.3.0",
+    "chai-as-promised": "^5.0.0",
     "sqlite3": "^3.0.5",
     "pg": "^4.2.0",
     "pg-hstore": "^2.3.1",
     "pg-native": "^1.8.0",
     "tedious": "^1.7.0",
-    "jshint": "2.5.x"
+    "jshint": "^2.7.0"
   },
   "keywords": [
   ],
