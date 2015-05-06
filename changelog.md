@@ -129,3 +129,4 @@ Accidental commit. No changes made.
 * Update lodash dependency
 * Update bluebird-extra dependency
 * Update dev dependencies
+* README contribution section
