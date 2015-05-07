@@ -17,10 +17,10 @@
     "sequelize": "~2.1.0",
     "mysql": "~2.6.2",
     "lodash": "3.8.0",
-    "sequelize-definer": "~0.3.2",
-    "sequelize-hierarchy": "~0.2.12",
-    "sequelize-virtual-fields": "~0.2.12",
-    "sequelize-values": "~0.0.3",
+    "sequelize-definer": "~0.3.3",
+    "sequelize-hierarchy": "~0.2.13",
+    "sequelize-virtual-fields": "~0.2.13",
+    "sequelize-values": "~0.0.4",
     "bluebird-extra": "~0.1.5"
   },
   "devDependencies": {
