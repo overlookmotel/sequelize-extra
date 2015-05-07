@@ -130,3 +130,7 @@ Accidental commit. No changes made.
 * Update bluebird-extra dependency
 * Update dev dependencies
 * README contribution section
+
+## Next
+
+* Remove relative path to sequelize in tests
