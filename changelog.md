@@ -135,3 +135,7 @@ Accidental commit. No changes made.
 
 * Remove relative path to sequelize in tests
 * Update sequelize module dependencies
+
+## Next
+
+* Update README badges to use shields.io

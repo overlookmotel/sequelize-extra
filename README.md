@@ -8,8 +8,10 @@ Packages together 4 Sequelize plugins ([sequelize-definer](https://www.npmjs.org
 
 ## Current status
 
-[![Build Status](https://secure.travis-ci.org/overlookmotel/sequelize-extra.png?branch=master)](http://travis-ci.org/overlookmotel/sequelize-extra)
-[![Dependency Status](https://david-dm.org/overlookmotel/sequelize-extra.png)](https://david-dm.org/overlookmotel/sequelize-extra)
+[![NPM version](https://img.shields.io/npm/v/sequelize-extra.svg)](https://www.npmjs.com/package/sequelize-extra)
+[![Build Status](https://img.shields.io/travis/overlookmotel/sequelize-extra/master.svg)](http://travis-ci.org/overlookmotel/sequelize-extra)
+[![Dependency Status](https://img.shields.io/david/overlookmotel/sequelize-extra.svg)](https://david-dm.org/overlookmotel/sequelize-extra)
+[![Dev dependency Status](https://img.shields.io/david/dev/overlookmotel/sequelize-extra.svg)](https://david-dm.org/overlookmotel/sequelize-extra)
 
 API is stable. All features and options are fairly well tested. Works with all dialects of SQL supported by Sequelize (MySQL, Postgres, SQLite) except Microsoft SQL Server.
 
