@@ -10,6 +10,8 @@ var chai = require('chai'),
 	Support = require(__dirname + '/support'),
 	Sequelize = Support.Sequelize;
 
+var sequelizeVersion = require('sequelize/package.json').version;
+
 // init
 chai.use(promised);
 chai.config.includeStack = true;
@@ -18,6 +20,8 @@ chai.config.includeStack = true;
 
 /* jshint expr: true */
 /* global describe, it */
+
+console.log('Sequelize version:', sequelizeVersion);
 
 describe(Support.getTestDialectTeaser('Tests'), function () {
 	it('Tests', function() {
