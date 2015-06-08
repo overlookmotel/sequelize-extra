@@ -21,7 +21,7 @@
     "sequelize-hierarchy": "~0.2.13",
     "sequelize-virtual-fields": "~0.2.13",
     "sequelize-values": "~0.0.4",
-    "bluebird-extra": "~0.1.5"
+    "bluebird-extra": "^0.1.7"
   },
   "devDependencies": {
     "mocha": "^2.2.4",
