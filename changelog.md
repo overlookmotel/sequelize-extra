@@ -136,7 +136,7 @@ Accidental commit. No changes made.
 * Remove relative path to sequelize in tests
 * Update sequelize module dependencies
 
-## Next
+## 0.4.0
 
 * Update Sequelize dependency to v3.2.0
 * Update sequelize plugin dependencies
