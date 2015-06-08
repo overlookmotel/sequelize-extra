@@ -138,6 +138,7 @@ Accidental commit. No changes made.
 
 ## Next
 
+* Update Sequelize dependency to v3.2.0
 * Update sequelize plugin dependencies
 * Update dependencies
 * Update dev dependencies in line with Sequelize v3.2.0

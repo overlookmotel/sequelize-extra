@@ -16,7 +16,7 @@ Packages together 4 Sequelize plugins ([sequelize-definer](https://www.npmjs.org
 
 API is stable. All features and options are fairly well tested. Works with all dialects of SQL supported by Sequelize (MySQL, Postgres, SQLite) except Microsoft SQL Server.
 
-Utilizes Sequelize v2.0.0 internally.
+Utilizes Sequelize v3.x.x internally, but can work with v2.x.x.
 
 ## Usage
 
