@@ -138,6 +138,7 @@ Accidental commit. No changes made.
 
 ## Next
 
+* Update dev dependencies in line with Sequelize v3.2.0
 * Travis runs tests with Sequelize v3 and v2
 * Test code coverage & Travis sends to coveralls
 * Run jshint on tests
