@@ -140,6 +140,7 @@ Accidental commit. No changes made.
 
 * Update Sequelize dependency to v3.2.0
 * Update sequelize plugin dependencies
+* Remove DATEONLY data type as now defined in Sequelize v3
 * Update dependencies
 * Update dev dependencies in line with Sequelize v3.2.0
 * Travis runs tests with Sequelize v3 and v2
