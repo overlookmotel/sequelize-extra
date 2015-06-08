@@ -138,6 +138,7 @@ Accidental commit. No changes made.
 
 ## Next
 
+* Update sequelize plugin dependencies
 * Update dependencies
 * Update dev dependencies in line with Sequelize v3.2.0
 * Travis runs tests with Sequelize v3 and v2
