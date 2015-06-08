@@ -138,6 +138,7 @@ Accidental commit. No changes made.
 
 ## Next
 
+* Test code coverage & Travis sends to coveralls
 * Run jshint on tests
 * Disable Travis dependency cache
 * Update README badges to use shields.io

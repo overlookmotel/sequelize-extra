@@ -12,6 +12,7 @@ Packages together 4 Sequelize plugins ([sequelize-definer](https://www.npmjs.org
 [![Build Status](https://img.shields.io/travis/overlookmotel/sequelize-extra/master.svg)](http://travis-ci.org/overlookmotel/sequelize-extra)
 [![Dependency Status](https://img.shields.io/david/overlookmotel/sequelize-extra.svg)](https://david-dm.org/overlookmotel/sequelize-extra)
 [![Dev dependency Status](https://img.shields.io/david/dev/overlookmotel/sequelize-extra.svg)](https://david-dm.org/overlookmotel/sequelize-extra)
+[![Coverage Status](https://img.shields.io/coveralls/overlookmotel/sequelize-extra/master.svg)](https://coveralls.io/r/overlookmotel/sequelize-extra)
 
 API is stable. All features and options are fairly well tested. Works with all dialects of SQL supported by Sequelize (MySQL, Postgres, SQLite) except Microsoft SQL Server.
 
@@ -35,7 +36,7 @@ var Sequelize = require('sequelize-extra');
 
 ## Tests
 
-Use `npm test` to run the tests.
+Use `npm test` to run the tests. Use `npm run cover` to check coverage.
 Requires a database called 'sequelize_test' and a db user 'sequelize_test' with no password.
 
 ## Changelog
