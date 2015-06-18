@@ -148,3 +148,7 @@ Accidental commit. No changes made.
 * Run jshint on tests
 * Disable Travis dependency cache
 * Update README badges to use shields.io
+
+## Next
+
+* Update sequelize-hierarchy plugin dependency
