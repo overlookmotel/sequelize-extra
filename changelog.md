@@ -149,6 +149,6 @@ Accidental commit. No changes made.
 * Disable Travis dependency cache
 * Update README badges to use shields.io
 
-## Next
+## 0.4.1
 
 * Update sequelize-hierarchy plugin dependency
