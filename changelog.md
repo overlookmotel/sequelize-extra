@@ -156,3 +156,7 @@ Accidental commit. No changes made.
 ## 0.4.2
 
 * Update Sequelize dependency to v3.3.0
+
+## Next
+
+* Update sequelize-virtual-fields plugin dependency
