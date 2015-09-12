@@ -37,6 +37,7 @@ var Sequelize = require('sequelize-extra');
 ## Tests
 
 Use `npm test` to run the tests. Use `npm run cover` to check coverage.
+
 Requires a database called 'sequelize_test' and a db user 'sequelize_test' with no password.
 
 ## Changelog

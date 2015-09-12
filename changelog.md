@@ -170,3 +170,4 @@ Accidental commit. No changes made.
 * Update dev dependencies
 * MSSQL config for tests
 * package.json keywords
+* README update
