@@ -167,4 +167,5 @@ Accidental commit. No changes made.
 * Update plugins dependencies
 * Update dependency mysql in line with Sequelize v3.8.0
 * Update dependency lodash
+* Update dev dependencies
 * MSSQL config for tests
