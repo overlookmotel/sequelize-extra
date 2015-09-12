@@ -163,4 +163,5 @@ Accidental commit. No changes made.
 
 ## Next
 
+* Update Sequelize dependency to v3.8.0
 * MSSQL config for tests
