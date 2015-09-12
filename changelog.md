@@ -165,4 +165,5 @@ Accidental commit. No changes made.
 
 * Update Sequelize dependency to v3.8.0
 * Update plugins dependencies
+* Update dependency mysql in line with Sequelize v3.8.0
 * MSSQL config for tests
