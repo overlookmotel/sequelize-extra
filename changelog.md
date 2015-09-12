@@ -169,3 +169,4 @@ Accidental commit. No changes made.
 * Update dependency lodash
 * Update dev dependencies
 * MSSQL config for tests
+* package.json keywords

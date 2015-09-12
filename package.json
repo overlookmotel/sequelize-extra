@@ -37,6 +37,16 @@
     "coveralls": "^2.11.4"
   },
   "keywords": [
+    "sequelize",
+    "sequelize-plugin",
+    "plugin",
+    "plugins",
+    "collection",
+    "definer",
+    "hierarchy",
+    "virtual",
+    "fields",
+    "values"
   ],
   "scripts": {
     "test": "make all",
