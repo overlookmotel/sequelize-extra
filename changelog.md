@@ -160,3 +160,7 @@ Accidental commit. No changes made.
 ## 0.4.3
 
 * Update sequelize-virtual-fields plugin dependency
+
+## Next
+
+* MSSQL config for tests
