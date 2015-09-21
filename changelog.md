@@ -172,7 +172,7 @@ Accidental commit. No changes made.
 * package.json keywords
 * README update
 
-## Next
+## 0.4.5
 
 * Update Sequelize dependency to v3.9.0
 * Update sequelize-hierarchy plugin dependency
