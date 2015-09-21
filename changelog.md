@@ -175,3 +175,4 @@ Accidental commit. No changes made.
 ## Next
 
 * Update Sequelize dependency to v3.9.0
+* Update sequelize-hierarchy plugin dependency
