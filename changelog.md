@@ -171,3 +171,7 @@ Accidental commit. No changes made.
 * MSSQL config for tests
 * package.json keywords
 * README update
+
+## Next
+
+* Update Sequelize dependency to v3.9.0
