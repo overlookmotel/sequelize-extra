@@ -186,6 +186,6 @@ Accidental commit. No changes made.
 
 * Update sequelize-virtual-fields plugin dependency
 
-## Next
+## 0.4.8
 
 * Update sequelize-virtual-fields plugin dependency
