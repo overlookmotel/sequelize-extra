@@ -180,3 +180,4 @@ Accidental commit. No changes made.
 ## Next
 
 * Update plugins dependencies
+* Update dev dependencies
