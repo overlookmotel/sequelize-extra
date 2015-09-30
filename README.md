@@ -42,7 +42,7 @@ Requires a database called 'sequelize_test' and a db user 'sequelize_test' with 
 
 ## Changelog
 
-See changelog.md
+See [changelog.md](https://github.com/overlookmotel/sequelize-extra/blob/master/changelog.md)
 
 ## Issues
 
