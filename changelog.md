@@ -194,3 +194,7 @@ Accidental commit. No changes made.
 
 * Update bluebird-extra dependency
 * README
+
+## Next
+
+* Update bluebird-extra dependency
