@@ -189,3 +189,7 @@ Accidental commit. No changes made.
 ## 0.4.8
 
 * Update sequelize-virtual-fields plugin dependency
+
+## Next
+
+* Update bluebird-extra dependency
