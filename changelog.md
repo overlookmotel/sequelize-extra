@@ -198,3 +198,7 @@ Accidental commit. No changes made.
 ## 0.4.10
 
 * Update bluebird-extra dependency
+
+## Next
+
+* Update sequelize-definer plugin dependency
