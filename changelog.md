@@ -199,7 +199,7 @@ Accidental commit. No changes made.
 
 * Update bluebird-extra dependency
 
-## Next
+## 0.4.11
 
 * Update sequelize-definer plugin dependency
 * Update Sequelize dependency to v3.12.2
