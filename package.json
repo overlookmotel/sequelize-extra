@@ -14,8 +14,8 @@
     "url": "https://github.com/overlookmotel/sequelize-extra/issues"
   },
   "dependencies": {
-    "mysql": "~2.8.0",
     "sequelize": "^3.12.2",
+    "mysql": "~2.9.0",
     "lodash": "^3.10.1",
     "sequelize-definer": "^0.4.6",
     "sequelize-hierarchy": "^0.5.5",

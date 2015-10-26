@@ -203,3 +203,4 @@ Accidental commit. No changes made.
 
 * Update sequelize-definer plugin dependency
 * Update Sequelize dependency to v3.12.2
+* Update dependency mysql in line with Sequelize v3.12.2
