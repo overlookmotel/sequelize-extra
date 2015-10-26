@@ -202,3 +202,4 @@ Accidental commit. No changes made.
 ## Next
 
 * Update sequelize-definer plugin dependency
+* Update Sequelize dependency to v3.12.2
