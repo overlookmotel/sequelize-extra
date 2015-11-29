@@ -205,7 +205,7 @@ Accidental commit. No changes made.
 * Update Sequelize dependency to v3.12.2
 * Update dependency mysql in line with Sequelize v3.12.2
 
-## Next
+## 3.12.3
 
 * `TINYTEXT`, `MEDIUMTEXT`, `LONGTEXT` field types
 * Update sequelize-hierarchy plugin dependency
