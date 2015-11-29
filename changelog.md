@@ -210,3 +210,7 @@ Accidental commit. No changes made.
 * `TINYTEXT`, `MEDIUMTEXT`, `LONGTEXT` field types
 * Update sequelize-hierarchy plugin dependency
 * Pin Sequelize dependency to v3.12.2
+
+## Next
+
+* Remove `TINYTEXT`, `MEDIUMTEXT`, `LONGTEXT` field types
