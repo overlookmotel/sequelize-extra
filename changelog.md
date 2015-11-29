@@ -208,3 +208,4 @@ Accidental commit. No changes made.
 ## Next
 
 * Update sequelize-hierarchy plugin dependency
+* Pin Sequelize dependency to v3.12.2
