@@ -14,26 +14,26 @@
     "url": "https://github.com/overlookmotel/sequelize-extra/issues"
   },
   "dependencies": {
-    "sequelize": "3.12.2",
-    "mysql": "~2.9.0",
-    "lodash": "^3.10.1",
+    "sequelize": "3.30.4",
+    "mysql": "~2.13.0",
+    "lodash": "^4.17.4",
     "sequelize-definer": "^0.4.6",
-    "sequelize-hierarchy": "^0.5.8",
-    "sequelize-virtual-fields": "^0.3.6",
-    "sequelize-values": "^0.1.2",
-    "bluebird-extra": "^1.0.1"
+    "sequelize-hierarchy": "^1.2.0",
+    "sequelize-virtual-fields": "^1.1.0",
+    "sequelize-values": "^1.1.0",
+    "bluebird-extra": "^2.0.0"
   },
   "devDependencies": {
-    "mocha": "^2.3.3",
-    "chai": "^3.3.0",
-    "chai-as-promised": "^5.1.0",
+    "mocha": "^3.4.2",
+    "chai": "^4.0.0",
+    "chai-as-promised": "^6.0.0",
     "sqlite3": "^3.0.6",
-    "pg": "^4.2.0",
+    "pg": "^6.2.3",
     "pg-hstore": "^2.3.1",
     "pg-native": "^1.8.0",
-    "tedious": "^1.7.0",
+    "tedious": "^2.0.0",
     "jshint": "^2.8.0",
-    "istanbul": "^0.3.21",
+    "istanbul": "^0.4.5",
     "coveralls": "^2.11.4"
   },
   "keywords": [
