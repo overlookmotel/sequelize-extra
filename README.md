@@ -1,5 +1,7 @@
 # sequelize-extra.js
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/overlookmotel/sequelize-extra.svg)](https://greenkeeper.io/)
+
 # Collection of extensions to Sequelize
 
 ## What it does
