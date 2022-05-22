@@ -214,3 +214,7 @@ Accidental commit. No changes made.
 ## 0.4.13
 
 * Remove `TINYTEXT`, `MEDIUMTEXT`, `LONGTEXT` field types
+
+## 0.4.14
+
+* Update `sequelize-virtual-fields` dependency
