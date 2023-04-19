@@ -1,5 +1,22 @@
 # Changelog
 
+## 0.5.0
+
+Dependencies:
+
+* Update `sequelize-definer` dependency
+
+Docs:
+
+* Remove David badges from README
+* Reverse changelog order
+* Update license year
+* Remove license indentation
+
+Dev:
+
+* Update `.editorconfig`
+
 ## 0.4.14
 
 * Update `sequelize-virtual-fields` dependency
