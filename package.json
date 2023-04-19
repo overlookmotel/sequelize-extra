@@ -17,7 +17,7 @@
     "sequelize": "3.12.2",
     "mysql": "~2.9.0",
     "lodash": "^3.10.1",
-    "sequelize-definer": "^0.4.6",
+    "sequelize-definer": "^0.6.2",
     "sequelize-hierarchy": "^0.5.8",
     "sequelize-virtual-fields": "^1.1.1",
     "sequelize-values": "^0.1.2",
